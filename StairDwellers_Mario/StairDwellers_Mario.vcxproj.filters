@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="CGame.cpp">
+      <Filter>00.CGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>01.CObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CDynamicObject.cpp">
+      <Filter>01.CObject\00.CDynamicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CStaticObject.cpp">
+      <Filter>01.CObject\01.CStaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>01.CObject\00.CDynamicObject\00.CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackGround.cpp">
+      <Filter>01.CObject\01.CStaticObject\00.CBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjMgr.cpp">
+      <Filter>02.Manager\00.CObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CImgMgr.cpp">
+      <Filter>02.Manager\01.CImgMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CInput.cpp">
+      <Filter>03.CInput</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimer.cpp">
+      <Filter>04.CTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>05.Vector2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CTile.cpp">
+      <Filter>01.CObject\01.CStaticObject\01.CTile</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>01.CObject\00.CDynamicObject\02.CProject</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemy.cpp">
+      <Filter>01.CObject\00.CDynamicObject\01.CEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CTurtle.cpp">
+      <Filter>01.CObject\00.CDynamicObject\01.CEnemy\00.CTurtle</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateMgr.cpp">
+      <Filter>02.Manager\02.CStateMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CState.cpp">
+      <Filter>06.CState</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleState.cpp">
+      <Filter>06.CState\00.CTitleState</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameState.cpp">
+      <Filter>06.CState\01.CGameState</Filter>
+    </ClCompile>
+    <ClCompile Include="CAudioMgr.cpp">
+      <Filter>02.Manager\03.CAudioMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>01.CObject\01.CStaticObject\02.CUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleBackGround.cpp">
+      <Filter>01.CObject\01.CStaticObject\03.CTitleBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CButton.cpp">
+      <Filter>01.CObject\01.CStaticObject\02.CUI\00.CButton</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameState2.cpp">
+      <Filter>06.CState\02.CGameState2</Filter>
+    </ClCompile>
+    <ClCompile Include="CMushroomProjectile.cpp">
+      <Filter>01.CObject\00.CDynamicObject\02.CProject\01. CMushroomProjectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Firebullet.cpp">
+      <Filter>01.CObject\00.CDynamicObject\02.CProject</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoseState.cpp">
+      <Filter>06.CState\03.CLoseState</Filter>
+    </ClCompile>
+    <ClCompile Include="CFont.cpp">
+      <Filter>01.CObject\01.CStaticObject\04.CFont</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeFont.cpp">
+      <Filter>01.CObject\01.CStaticObject\04.CFont\00.CTimeFont</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevelTransition.cpp">
+      <Filter>01.CObject\01.CStaticObject\05.CLevelTransition</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalProjectile.cpp">
+      <Filter>01.CObject\00.CDynamicObject\02.CProject</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>01.CObject\01.CStaticObject\06.CItem</Filter>
+    </ClCompile>
+    <ClCompile Include="CBulletItem.cpp">
+      <Filter>01.CObject\01.CStaticObject\06.CItem\00.CBulletItem</Filter>
+    </ClCompile>
+    <ClCompile Include="CCoinItem.cpp">
+      <Filter>01.CObject\01.CStaticObject\06.CItem\01.CCoinItem</Filter>
+    </ClCompile>
+    <ClCompile Include="CCoinScoreFont.cpp">
+      <Filter>01.CObject\01.CStaticObject\04.CFont\01.CCoinScoreFont</Filter>
+    </ClCompile>
+    <ClCompile Include="CWinState.cpp">
+      <Filter>06.CState\05.CWinState</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldProjectile.cpp">
+      <Filter>01.CObject\00.CDynamicObject\02.CProject</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameState3.cpp">
+      <Filter>06.CState\03.CGameState3</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostProjectile.cpp">
+      <Filter>01.CObject\00.CDynamicObject\02.CProject</Filter>
+    </ClCompile>
+    <ClCompile Include="CPauseState.cpp">
+      <Filter>06.CState\06.CPauseState</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon.cpp">
+      <Filter>01.CObject\00.CDynamicObject\01.CEnemy\02.Cannon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGame.h">
+      <Filter>00.CGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>01.CObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CDynamicObject.h">
+      <Filter>01.CObject\00.CDynamicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CStaticObject.h">
+      <Filter>01.CObject\01.CStaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>01.CObject\00.CDynamicObject\00.CPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackGround.h">
+      <Filter>01.CObject\01.CStaticObject\00.CBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjMgr.h">
+      <Filter>02.Manager\00.CObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CImgMgr.h">
+      <Filter>02.Manager\01.CImgMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput.h">
+      <Filter>03.CInput</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>04.CTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonDefines.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="CFactory.h">
+      <Filter>98.DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>05.Vector2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CTile.h">
+      <Filter>01.CObject\01.CStaticObject\01.CTile</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>01.CObject\00.CDynamicObject\02.CProject</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemy.h">
+      <Filter>01.CObject\00.CDynamicObject\01.CEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CTurtle.h">
+      <Filter>01.CObject\00.CDynamicObject\01.CEnemy\00.CTurtle</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateMgr.h">
+      <Filter>02.Manager\02.CStateMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CState.h">
+      <Filter>06.CState</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitleState.h">
+      <Filter>06.CState\00.CTitleState</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameState.h">
+      <Filter>06.CState\01.CGameState</Filter>
+    </ClInclude>
+    <ClInclude Include="CAudioMgr.h">
+      <Filter>02.Manager\03.CAudioMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>01.CObject\01.CStaticObject\02.CUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitleBackGround.h">
+      <Filter>01.CObject\01.CStaticObject\03.CTitleBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CButton.h">
+      <Filter>01.CObject\01.CStaticObject\02.CUI\00.CButton</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameState2.h">
+      <Filter>06.CState\02.CGameState2</Filter>
+    </ClInclude>
+    <ClInclude Include="CMushroomProjectile.h">
+      <Filter>01.CObject\00.CDynamicObject\02.CProject\01. CMushroomProjectile</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBullet.h">
+      <Filter>01.CObject\00.CDynamicObject\02.CProject</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoseState.h">
+      <Filter>06.CState\03.CLoseState</Filter>
+    </ClInclude>
+    <ClInclude Include="CFont.h">
+      <Filter>01.CObject\01.CStaticObject\04.CFont</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeFont.h">
+      <Filter>01.CObject\01.CStaticObject\04.CFont\00.CTimeFont</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevelTransition.h">
+      <Filter>01.CObject\01.CStaticObject\05.CLevelTransition</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalProjectile.h">
+      <Filter>01.CObject\00.CDynamicObject\02.CProject</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>01.CObject\01.CStaticObject\06.CItem</Filter>
+    </ClInclude>
+    <ClInclude Include="CBulletItem.h">
+      <Filter>01.CObject\01.CStaticObject\06.CItem\00.CBulletItem</Filter>
+    </ClInclude>
+    <ClInclude Include="CCoinItem.h">
+      <Filter>01.CObject\01.CStaticObject\06.CItem\01.CCoinItem</Filter>
+    </ClInclude>
+    <ClInclude Include="CCoinScoreFont.h">
+      <Filter>01.CObject\01.CStaticObject\04.CFont\01.CCoinScoreFont</Filter>
+    </ClInclude>
+    <ClInclude Include="CWinState.h">
+      <Filter>06.CState\05.CWinState</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldProjectile.h">
+      <Filter>01.CObject\00.CDynamicObject\02.CProject</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameState3.h">
+      <Filter>06.CState\03.CGameState3</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostProjectile.h">
+      <Filter>01.CObject\00.CDynamicObject\02.CProject</Filter>
+    </ClInclude>
+    <ClInclude Include="CPauseState.h">
+      <Filter>06.CState\06.CPauseState</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon.h">
+      <Filter>01.CObject\00.CDynamicObject\01.CEnemy\02.Cannon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00.CGame">
+      <UniqueIdentifier>{ff52e69d-68af-42fc-a582-3d82416afd9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject">
+      <UniqueIdentifier>{d6ecb3a5-7608-475b-a777-c51cc893f2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\00.CDynamicObject">
+      <UniqueIdentifier>{da6b986a-d9c0-43b5-9bff-3b7c3de37f48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\01.CStaticObject">
+      <UniqueIdentifier>{b034080a-c53b-4b23-a3ef-b30ac12e1430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\00.CDynamicObject\00.CPlayer">
+      <UniqueIdentifier>{6bf6a64f-64e8-4d0a-b06e-d5693bf0be74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\01.CStaticObject\00.CBackGround">
+      <UniqueIdentifier>{1f3def67-448f-4651-830f-c37b1f3d6d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager">
+      <UniqueIdentifier>{5cb85f9e-7c8c-4b46-a555-12c6e86a7074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\00.CObjMgr">
+      <UniqueIdentifier>{bc876542-94a7-475a-bd76-93e49bb4fe68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\01.CImgMgr">
+      <UniqueIdentifier>{2c944c73-32e1-4e4b-a2c5-176e59159f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.CInput">
+      <UniqueIdentifier>{bd00529a-ba56-4e3b-b82f-1e2565243eee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.CTimer">
+      <UniqueIdentifier>{93e82b77-bc29-4eb1-ba97-81bdd82222e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Defines">
+      <UniqueIdentifier>{e586ad05-7418-497b-a018-d0a1bd56d6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.DesignPattern">
+      <UniqueIdentifier>{ff783dad-3b76-4a42-b370-a0f6dc7a8a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Vector2D">
+      <UniqueIdentifier>{044711cc-d297-40bd-8ee7-5953aeb0f7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\01.CStaticObject\01.CTile">
+      <UniqueIdentifier>{6c01843b-e64e-47f7-b5d8-9f77757e5bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\00.CDynamicObject\02.CProject">
+      <UniqueIdentifier>{20d03568-1e73-4ae8-b1df-9d2272da46c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\00.CDynamicObject\01.CEnemy">
+      <UniqueIdentifier>{e862510a-3a37-4ea1-8082-35ec14635c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\00.CDynamicObject\01.CEnemy\00.CTurtle">
+      <UniqueIdentifier>{75bdb4d2-bc47-447f-8013-9d1d4c2e9b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\02.CStateMgr">
+      <UniqueIdentifier>{1b143234-108d-4dd2-9bbc-bd1f018cd306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.CState">
+      <UniqueIdentifier>{1f1676ef-dc4a-4541-b3c5-0536e081b253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.CState\00.CTitleState">
+      <UniqueIdentifier>{3ce0338f-08db-4c3d-8fa4-072808265232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.CState\01.CGameState">
+      <UniqueIdentifier>{1687f9c8-48ab-4648-b066-045fa4054b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\03.CAudioMgr">
+      <UniqueIdentifier>{c9cde031-7116-49b9-adc4-447846dfecf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\01.CStaticObject\02.CUI">
+      <UniqueIdentifier>{4ea2d59b-b26a-4f2a-8a4d-de56f54c1760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\01.CStaticObject\03.CTitleBackGround">
+      <UniqueIdentifier>{fa7865b3-9161-43af-bee2-48a466859292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\01.CStaticObject\02.CUI\00.CButton">
+      <UniqueIdentifier>{8b653f5e-f3bf-44e2-96a1-0c469d439080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.CState\02.CGameState2">
+      <UniqueIdentifier>{f8c651e0-3efd-4275-9c96-f9630f1accdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\00.CDynamicObject\02.CProject\01. CMushroomProjectile">
+      <UniqueIdentifier>{171532f3-8350-467b-91fa-d75a7db04688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.CState\03.CLoseState">
+      <UniqueIdentifier>{fce963c4-ef6f-420d-8a86-73ed3a8f1af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\01.CStaticObject\04.CFont">
+      <UniqueIdentifier>{6c817d46-4f17-47e7-8150-69a712440c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\01.CStaticObject\04.CFont\00.CTimeFont">
+      <UniqueIdentifier>{93053f0e-9020-487f-8c94-cfa675eb8b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\01.CStaticObject\05.CLevelTransition">
+      <UniqueIdentifier>{62e6cfb3-7da3-4190-ac28-74ebfff88190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\01.CStaticObject\06.CItem">
+      <UniqueIdentifier>{5b427671-a760-42ff-80fa-ed0054f730fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Map">
+      <UniqueIdentifier>{bf65b184-08c4-4095-9f7d-ce12f90f2675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\01.CStaticObject\06.CItem\00.CBulletItem">
+      <UniqueIdentifier>{ff8ef6bc-662e-44fb-9d1e-820985b64254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\01.CStaticObject\06.CItem\01.CCoinItem">
+      <UniqueIdentifier>{e8a84bff-5976-4ce9-b0d3-49cccd25c615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\01.CStaticObject\04.CFont\01.CCoinScoreFont">
+      <UniqueIdentifier>{f8951328-7112-47c5-9925-8f4ab73df4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.CState\03.CGameState3">
+      <UniqueIdentifier>{752a1229-39f4-4ac9-bd61-4743afe3b700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.CState\06.CPauseState">
+      <UniqueIdentifier>{9611313a-4bb0-4182-9fe9-ae7f6c5b177e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.CState\05.CWinState">
+      <UniqueIdentifier>{0b413dda-e3e4-414e-b341-e9bb6725fa10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CObject\00.CDynamicObject\01.CEnemy\02.Cannon">
+      <UniqueIdentifier>{fc48394b-4efe-4532-a788-c077f83bd453}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\Level1.txt">
+      <Filter>97.Map</Filter>
+    </Text>
+    <Text Include="assets\Level2.txt">
+      <Filter>97.Map</Filter>
+    </Text>
+    <Text Include="assets\level3.txt">
+      <Filter>97.Map</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\continueButton2.png">
+      <Filter>01.CObject\01.CStaticObject\02.CUI\00.CButton</Filter>
+    </Image>
+    <Image Include="assets\newGameButton.png">
+      <Filter>01.CObject\01.CStaticObject\02.CUI\00.CButton</Filter>
+    </Image>
+    <Image Include="assets\ContinueButton.bmp">
+      <Filter>01.CObject\01.CStaticObject\02.CUI\00.CButton</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
